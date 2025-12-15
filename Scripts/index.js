@@ -1,5 +1,5 @@
 "use strict";
-let count_clicks = 0;
+let count_clicks = 0; //Contador para el numero de clicks
 let my_button =  document.getElementById("clickBtn");
 
 
@@ -8,7 +8,7 @@ function upgradeDisplay(){
     count_clicks++;
     
     let my_Display = document.getElementById("counterDisplay");
-    my_Display.innerText = `Click: ${count_clicks}`//actualziamos el display queindica el numero de clicks
+    my_Display.innerText = `Click: ${count_clicks}`//Actualizamos el display que indica el numero de clicks
 
     //requisito cada 10 clicks cambia de color el boton
     if((count_clicks%10) == 0){

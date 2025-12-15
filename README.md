@@ -14,4 +14,7 @@ luego al hacerc lick aumetnamos el contaodr en 1
 luego actualizar el display para que muestre el enumero de clicks
 esto ultimo se hace concatenando strings html */
 
-Innertext establece el contenido textual visible en un documento HTML
+# Elementos utilizados
+- Innertext: Va a establecer el contenido textual visible en un documento HTML.
+- Math.random(arguments): Se encarga de generar numeros aleatorios entre 0 y 1
+- Math.floor(arguments): Redondea el numero al entero mas cercano
